@@ -68,7 +68,7 @@ export default function SignUpScreen() {
     return (
       <View className="flex-1 justify-center items-center bg-white px-6">
         <Image
-          source={require("@/assets/images/kribb.png")}
+          source={require("../../../assets/images/kribb.png")}
           className="w-32 h-16 mb-8"
           resizeMode="contain"
         />
