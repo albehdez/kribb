@@ -10,7 +10,7 @@ export default function FeaturedCard({ property }: { property: Property }) {
   return (
     <TouchableOpacity
       onPress={() => console.log("Navigate to property details")}
-      className="w-72 mr-4 rounded-3xl overflow-hidden bg-white"
+      className="w-72 mr-4 mb-1 rounded-3xl overflow-hidden bg-white"
       style={{
         shadowColor: "#000",
         shadowOffset: { width: 0, height: 2 },
